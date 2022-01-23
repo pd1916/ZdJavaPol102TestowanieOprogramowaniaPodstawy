@@ -11,4 +11,9 @@ public class CalculatorWithException {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        CalculatorWithException calculator = new CalculatorWithException();
+        calculator.divide(10, 0);
+    }
 }
